@@ -6,10 +6,10 @@ from telegram.constants import ParseMode
 import asyncio
 
 # Configuration
-IP = '192.168.175.202' #you can specify you wifi or hotpot device' IP
+IP = '' # specify your wifi or hotpot device' IP
 KNOWN_DEVICES = []
-TELEGRAM_BOT_TOKEN = '7559303386:AAFe_HrEHzaXdBTctasH2bj4K3aIcHM7rbs' # specify your telegram bot's token (you can get it ftom BotFather)
-CHAT_ID = '-4666596018' # specify your group's chat id
+TELEGRAM_BOT_TOKEN = '' # specify your telegram bot's token (you can get it ftom BotFather)
+CHAT_ID = '' # specify your group's chat id
 
 class NetworkScanner:
 
