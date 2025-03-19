@@ -49,11 +49,11 @@ class NetworkScanner:
                         await self.notify_new_device(mac)
                         self.connected_devices.add(mac)
 
-                time.sleep(10)  # Delay between scans
+                time.sleep(1)  # Delay between scans
 
             except Exception as e:
                 print(f"⚠️ Error occurred: {e}")
-                time.sleep(10)
+                time.sleep(1)
 
     async def notify_new_device(self, mac):
         """ Sends a Telegram message for new devices. """
